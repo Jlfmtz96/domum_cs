@@ -1,0 +1,78 @@
+@keyframes mover-derecha-izquierda-h2 {
+    from {
+        transform: translateX(80px);
+        opacity: 0.1;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes mover-izquierda-derecha-h4 {
+    from {
+        transform: translateX(-80px);
+        opacity: 0.1;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes mover-down-up {
+    from {
+        transform: translateY(50px);
+        opacity: 0.1;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes mover-derecha-izquierda-menu {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes mover-izquierda-derecha-menu-cierre {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+
+.animate-h2 {
+    animation: mover-derecha-izquierda-h2 2s;
+}
+
+.animate-h4 {
+    animation: mover-izquierda-derecha-h4 2s;
+}
+
+.animate-slide-link {
+    animation: mover-down-up 2s;
+}
+
+/* styles.css */
+.active-button {
+    border-bottom: 2px solid #fff; /* Línea debajo del botón activo */
+    border-bottom-width: 1px; /* Reducir el ancho del borde */
+}
+
+.menu-overlay {
+    animation: mover-derecha-izquierda-menu 0.5s;
+ }
+
+.menu-overlay-cierre {
+    animation: mover-izquierda-derecha-menu-cierre 0.5s;
+}
+

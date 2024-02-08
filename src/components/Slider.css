@@ -1,0 +1,27 @@
+.zoom-slide {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .zoom-slide .zoom-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.5s ease, opacity 1s ease;
+  }
+  
+  @keyframes zoomFadeAnimation {
+    from {
+      transform: scale(1);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+  }
+  
+  .zoom-slide .zoom-image {
+    animation: zoomFadeAnimation 3s ease; /* Animación combinada de zoom y fade */
+  }
+  
