@@ -31,7 +31,10 @@ export default function Home() {
         <div className='text-white z-30 p-20 mt-12 md:mt-0'>
             <div className="text-center">
                 <span className='text-xs tracking-[0.2em] uppercase'>Alia Residencial</span>
-                <h3 className='font-bold text-5xl mt-2'>Se de los primeros en ser parte de este gran proyecto</h3>
+                <div className="max-w-6xl mx-auto text-center my-4">
+                    <h3 className='font-bold text-5xl'>Sé de los primeros en conocer nuestro nuevo desarrollo en Querétaro</h3>
+                </div>
+                {/* <h3 className='font-bold text-5xl my-2'>No te pierdas la oportunidad de ser parte de algo único.  Sé de los primeros en conocer nuestro nuevo desarrollo en Querétaro</h3> */}
                 <span className='text-xs tracking-[0.2em] uppercase'>Próximamente</span>
 
             </div>

@@ -16,13 +16,13 @@ export const DragCloseDrawerExample = () => {
         onClick={() => setOpen(true)}
         className="border p-4 text-xl"
       >
-        Contáctanos
+        Registrate
       </button>
 
       <DragCloseDrawer open={open} setOpen={setOpen}>
-        <div className="mx-auto max-w-2xl space-y-4">
-          <h2 className="text-6xl font-bold mb-6 text-center text-black">Registrate</h2>
-          <p className="text-xl font-bold mb-12 text-center text-black">Y obtén beneficios exclusios de preventa.</p>
+        <div className="mx-auto max-w-2xl space-y-4 mt-4">
+          <h2 className="text-4xl font-bold mb-6 text-center text-black">¡Pronto revelaremos el secreto mejor guardado de Querétaro! </h2>
+          <p className="text-2xl font-bold mb-12 text-center text-black">¿Estás listo para ser parte de algo extraordinario?</p>
           <form action="/submit_form" method="post">
               <div className="mb-12 custom-border">
                   {/* <label className="block text-gray-700 font-bold mb-2">Nombre:</label> */}

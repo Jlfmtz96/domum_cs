@@ -56,19 +56,19 @@ const Slider = () => {
       setResetTimer(false); // Restablecer el temporizador
 
       // Aplicar animaciones una vez antes del cambio de imagen
-      document.querySelector('h2').classList.add('animate-h2');
-      document.querySelector('h4').classList.add('animate-h4');
-      document.querySelector('.slide-link').classList.add('animate-slide-link');
+      // document.querySelector('h2').classList.add('animate-h2');
+      // document.querySelector('h4').classList.add('animate-h4');
+      // document.querySelector('.slide-link').classList.add('animate-slide-link');
 
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
 
       // Eliminar clases de animación después de que la animación se complete
-      setTimeout(() => {
-        document.querySelector('h2').classList.remove('animate-h2');
-        document.querySelector('h4').classList.remove('animate-h4');
-        document.querySelector('.slide-link').classList.remove('animate-slide-link');
+      // setTimeout(() => {
+        // document.querySelector('h2').classList.remove('animate-h2');
+        // document.querySelector('h4').classList.remove('animate-h4');
+        // document.querySelector('.slide-link').classList.remove('animate-slide-link');
         //document.querySelector('.slide-link').classList.remove('animate-slide-link');
-      }, 2000); // Ajusta el tiempo según la duración de tu animación
+      // }, 2000); // Ajusta el tiempo según la duración de tu animación
     }, 10000); // Cambia la imagen cada 3 segundos (ajusta según tus necesidades)
 
     return () => {
