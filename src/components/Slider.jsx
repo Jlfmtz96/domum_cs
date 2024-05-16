@@ -6,7 +6,7 @@ import Sl1 from "../assets/24A_CDM_R08_CASA_C-1.jpg"
 import Cdm from "../assets/cdm.jpg"
 import Villa from "../assets/24A_S5_CDM_R01_vista_1.jpg"
 import R8 from '../assets/r8.jpg'
-import R4 from '../assets/r4.jpg'
+import R4 from '../assets/24A_CDM_R10_ACCESO.jpg'
 
 
 const images = [
