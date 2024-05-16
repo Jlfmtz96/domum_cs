@@ -7,7 +7,7 @@
   .custom-border::after {
     content: "";
     position: absolute;
-    background-color: #D1D5DB; /* Correspondiente a border-gray-300 */
+    background-color: #ffffff; /* Correspondiente a border-gray-300 */
   }
   
   /* Borde superior izquierdo */
@@ -33,7 +33,7 @@
     left: 0;
     height: 50%;
     width: 2px; /* Border width */
-    background-color: #D1D5DB; /* Correspondiente a border-gray-300 */
+    background-color: #ffffff; /* Correspondiente a border-gray-300 */
   }
   
   /* Borde derecho inferior */
@@ -43,6 +43,6 @@
     right: 0;
     height: 50%;
     width: 2px; /* Border width */
-    background-color: #D1D5DB; /* Correspondiente a border-gray-300 */
+    background-color: #ffffff; /* Correspondiente a border-gray-300 */
   }
   

@@ -24,7 +24,7 @@ export default function Home() {
     <Blog />
     <Footer /> */}
     <div className='h-full md:h-screen bg-black md:overflow-hidden relative flex items-center justify-center'>
-        <div className='absolute opacity-70 z-0 h-full w-full'>
+        <div className='absolute opacity-85 z-0 h-full w-full'>
             {/* <img src={Villa} alt=""  className='object-cover w-full h-full'/> */}
             <Hero />
         </div>
