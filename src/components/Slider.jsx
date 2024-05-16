@@ -2,22 +2,24 @@
 import { useState, useEffect } from 'react';
 import './styles.css'
 //import Lagos from "../assets/lagos.png";
-import Sl1 from "../assets/sl-1.jpg"
+import Sl1 from "../assets/24A_CDM_R08_CASA_C-1.jpg"
 import Cdm from "../assets/cdm.jpg"
-import Villa from "../assets/VillaMagna.jpg"
+import Villa from "../assets/24A_S5_CDM_R01_vista_1.jpg"
+import R8 from '../assets/r8.jpg'
+import R4 from '../assets/r4.jpg'
 
 
 const images = [
     {
         /* url: 'https://freebw.com/templates/tatee/images/slide-02.jpg', */
-        imagen: Sl1,
+        imagen: Cdm,
         url: '/desarrollo-lagos',
         title: 'Casas Domum',
         location: 'San Luis Potosí, México'
     },
     {
         /* url: 'https://freebw.com/templates/tatee/images/slide-06.jpg', */
-        imagen: Cdm,
+        imagen: Sl1,
         url: '/desarrollo-lagos',
         title: 'Alia Residencial',
         location: 'Querétaro, México'
@@ -29,6 +31,20 @@ const images = [
         title: 'Alia Residencial',
         location: 'San Luis Potosí, México'
     },
+    {
+      /* url: 'https://freebw.com/templates/tatee/images/slide-02.jpg', */
+      imagen: R8,
+      url: '/desarrollo-lagos',
+      title: 'Casas Domum',
+      location: 'San Luis Potosí, México'
+  },
+  {
+      /* url: 'https://freebw.com/templates/tatee/images/slide-06.jpg', */
+      imagen: R4,
+      url: '/desarrollo-lagos',
+      title: 'Alia Residencial',
+      location: 'Querétaro, México'
+  },
 ];
 
 const Slider = () => {
@@ -82,7 +98,7 @@ const Slider = () => {
         />
         
       ))}
-        <div className="absolute z-30 md:left-20 2xl:left-44 top-1/2 transform -translate-y-1/2 text-white p-4">
+        {/* <div className="absolute z-30 md:left-20 2xl:left-44 top-1/2 transform -translate-y-1/2 text-white p-4">
           <h2 className="text-4xl md:text-5xl font-bold">{images[currentIndex].title}</h2>
           <h4 className='mt-6 lg:ml-52 tracking-[0.3em] uppercase'>{images[currentIndex].location}</h4>
           <div className='mt-12 lg:ml-52 slide-link'>
@@ -90,9 +106,9 @@ const Slider = () => {
               <span>Ver desarrollo</span> 
             </a>
           </div>
-        </div>
+        </div> */}
 
-        <div className="px-8 absolute z-30 bottom-10 grid grid-cols-3 w-full items-center justify-center">
+        <div className="px-8 absolute z-30 bottom-10 grid grid-cols-5 w-full items-center justify-center">
           {images.map((_, index) => (
             <button
               key={index}

@@ -1,0 +1,48 @@
+.custom-border {
+    position: relative;
+    margin-bottom: 1rem; /* Correspondiente a mb-4 en Tailwind */
+  }
+  
+  .custom-border::before,
+  .custom-border::after {
+    content: "";
+    position: absolute;
+    background-color: #D1D5DB; /* Correspondiente a border-gray-300 */
+  }
+  
+  /* Borde superior izquierdo */
+  .custom-border::before {
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 2px; /* Border width */
+  }
+  
+  /* Borde inferior derecho */
+  .custom-border::after {
+    bottom: 0;
+    right: 0;
+    width: 90%;
+    height: 2px; /* Border width */
+  }
+  
+  /* Borde izquierdo superior */
+  .custom-border .left-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 2px; /* Border width */
+    background-color: #D1D5DB; /* Correspondiente a border-gray-300 */
+  }
+  
+  /* Borde derecho inferior */
+  .custom-border .right-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50%;
+    width: 2px; /* Border width */
+    background-color: #D1D5DB; /* Correspondiente a border-gray-300 */
+  }
+  

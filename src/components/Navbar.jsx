@@ -51,18 +51,18 @@ export default function Navbar() {
 
                 <nav className="flex flex-grow basis-0 justify-end lg:justify-between">
                   <a href="" className='hidden lg:flex'>
-                    Tel : + (898) 784 -7217
+                    Tel : (444) 447 -7205
                   </a>
                   <a href="" className='hidden lg:flex'>
                     casasdomum@gmail.com
                   </a>
-                  <button className={`border-[1px] p-1 ${isScrolled ? 'text-black' : 'text-white'}`} onClick={toggleMenu}>
+                  {/* <button className={`border-[1px] p-1 ${isScrolled ? 'text-black' : 'text-white'}`} onClick={toggleMenu}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-align-justify">
                       <line x1="3" x2="21" y1="6" y2="6"/>
                       <line x1="3" x2="21" y1="12" y2="12"/>
                       <line x1="3" x2="21" y1="18" y2="18"/>
                     </svg>
-                  </button>
+                  </button> */}
 
                   {isMenuOpen && (
                     <div className="fixed top-0 left-0 w-full h-full bg-black opacity-50 cursor-pointer" onClick={closeMenu}></div>

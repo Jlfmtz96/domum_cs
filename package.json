@@ -10,12 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^11.2.3",
     "mapbox-gl": "^3.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-modal-image": "^2.6.0",
     "react-router-dom": "^6.21.3",
     "react-slick": "^0.30.1",
+    "react-use-measure": "^2.1.1",
     "react-vertical-timeline-component": "^3.6.0",
     "slick-carousel": "^1.8.1"
   },
